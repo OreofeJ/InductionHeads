@@ -21,3 +21,13 @@
 ## 4. Circuit Limitations & Where the Explanation Fails
 1. **Redundancy & Distributed Burden:** Induction behavior is not localized to a single "switch." While the top 5 heads account for a sharp drop, remaining heads and earlier previous-token heads share the computational load, meaning absolute circuit necessity cannot be pinned to an isolated subset without broader degradation.
 2. **Task Generalization:** Synthetic repeated sequences isolate copying behavior cleanly, but performance under natural text distributions with noise and variable sequence lengths shows that induction heads interact heavily with MLPs and earlier token-retrieval heads, complicating clean modular separation.
+
+## Project Structure
+This repository contains the code, experiments, and research analysis for investigating and causally validating induction head circuits in GPT-2 Small using TransformerLens.
+
+- `configs/`: Experiment configurations (YAML).
+- `data/`: Synthetic dataset generation scripts.
+- `notebooks/`: Exploratory Jupyter notebooks for baseline and attention analysis.
+- `src/`: Core Python modules (model loading, circuit detection, patching, and ablation).
+- `experiments/`: Main execution pipeline script.
+- `report/`: Final research note and findings.
