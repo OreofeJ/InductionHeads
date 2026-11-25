@@ -1,4 +1,4 @@
-# Research Note: Causal Identification of Induction Head Circuits in GPT-2 Small
+# Research Note: Causal Analysis and Identification of Induction Head Circuits in GPT-2 Small
 
 ## 1. Research Question & Hypothesis
 * **Question:** Can induction heads be causally identified in GPT-2 Small, and how does disrupting their activations affect in-context pattern copying?
